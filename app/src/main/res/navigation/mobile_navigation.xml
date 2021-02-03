@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_cafe">
+
+    <fragment
+        android:id="@+id/navigation_cafe"
+        android:name="com.msf.nearby.ui.fragment.BarsFragment"
+        android:label="@string/title_cafes"
+        tools:layout="@layout/fragment_bars" />
+
+    <fragment
+        android:id="@+id/navigation_bars"
+        android:name="com.msf.nearby.ui.fragment.CafeFragment"
+        android:label="@string/title_bars"
+        tools:layout="@layout/fragment_cafe" />
+
+    <fragment
+        android:id="@+id/navigation_restaurants"
+        android:name="com.msf.nearby.ui.notifications.NotificationsFragment"
+        android:label="@string/title_restaurants"
+        tools:layout="@layout/fragment_restaurants" />
+</navigation>

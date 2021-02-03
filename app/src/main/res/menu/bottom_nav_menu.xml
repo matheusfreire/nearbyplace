@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_cafe"
+        android:icon="@drawable/ic_drink"
+        android:title="@string/title_cafes" />
+
+    <item
+        android:id="@+id/navigation_bars"
+        android:icon="@drawable/ic_beer"
+        android:title="@string/title_bars" />
+
+    <item
+        android:id="@+id/navigation_restaurants"
+        android:icon="@drawable/ic_wine"
+        android:title="@string/title_restaurants" />
+
+</menu>
